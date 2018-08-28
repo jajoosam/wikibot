@@ -1,2 +1,7 @@
-# wikibot
-A WikiPedia bot for WhatsApp
+WhatsApp WikiBot
+=================
+
+Powered by Twilio WhatsApp API and DuckDuckGo Instant Search API 🤖
+
+
+\ ゜o゜)ノ

@@ -1,0 +1,60 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WikiBot</title>
+    <meta name="description" content="A WikiPedia bot for WhatsApp">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/737193ad-14e1-478d-94da-c41571373b77%2Frobot-face_1f916.png?1535460717284" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align:center">
+        WikiBot <span class="text-grey">for WhatsApp</span> <br>🤖 📜 💬
+      </h1>
+
+    </header>
+
+    <main style="text-align:center">
+      <img src="https://cdn.glitch.com/737193ad-14e1-478d-94da-c41571373b77%2Fscreely-1535459976301.png?1535460013480" style="width:100%; max-width:600px; margin-bottom:1em">
+      <p>
+        WhatsApp any term to <span class="text-grey">WikiBot 🤖</span> and get a reply with a summary from its WikiPedia page.
+      </p>
+      <br>
+      <p>
+        Get it at 👉 <a href="https://tiny.cc/wikibot">tiny.cc/wikibot</a> and send <code>Hi</code>
+      </p>
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+
+    <footer style="text-align:center">
+      👨‍💻 Made by <a href="https://twitter.com/jajoosam">@jajoosam</a><br><br>
+      <a href="https://github.com/jajoosam/wikibot"><img src="https://icongr.am/fontawesome/github.svg?size=20" style="vertical-align"></a>
+      <a href="https://glitch.com/~wealthy-plate"><img src="https://cdn.glitch.com/be1ad2d2-68ab-404a-82f4-6d8e98d28d93%2Ffor-platforms-icon.svg?1506442305188" style="max-width:30px"></a>
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
